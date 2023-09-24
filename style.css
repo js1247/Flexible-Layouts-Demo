@@ -1,28 +1,58 @@
-body{
-    font-size: 10px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+  font-size: 62.5%;
 }
-.card {
-    width: 27vw;
-    height: 35vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(120, 120, 120, 0.23);
-}
-.card-title {
-    font-size: 2.2rem;
-    text-transform: uppercase;
-}
-.card-img {
-    width: 80%;
-}
-.card-desc{
-    font-size: 1.3rem;
+.title {
+  text-align: center;
+  position: relative;
+  font-size: 4rem;
+  border: 1rem solid;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  background-color: orange;
+  font-family: "Courier New", Courier, monospace;
+  box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%),
+    0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
 }
 .flex-container {
-    display: flex;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
+.card {
+  width: 21%;
+  height: 55vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+}
+.card-title {
+    background-color: orange;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    padding: 3%;
+    border-radius: 50%;
+    border: 1rem ridge rgb(255, 166, 0);
+}
+.card-img {
+    width: 400px;
+    height: 200px;
+    border: 2rem ridge rgb(216, 147, 44);
+}
+.card-desc {
+    font-size: 2rem;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    background-color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding: 3%;
+    border-radius: 3%;
+    border: 1rem ridge rgb(218, 151, 50);
+  }
